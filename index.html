@@ -468,12 +468,13 @@
 
 					<!--=== Contact Form ===-->
 
-					<form id="contact-form" class="col-sm-6 col-md-offset-1 scrollimation fade-left d3" action="https://formspree.io/steve@littlecreekdesign.com" method="post" novalidate>
+					<form id="contact-form" class="col-sm-6 col-md-offset-1 scrollimation fade-left d3" action="https://formspree.io/steve@littlecreekdesign.com"
+      				method="POST">
 
                         <div class="form-group">
 						  <label class="control-label" for="contact-name">Name</label>
 						  <div class="controls">
-							<input id="contact-name" name="contactName" placeholder="Your name" class="form-control requiredField" type="text" data-error-empty="Please enter your name">
+							<input type="text" name="name" placeholder="Your name" class="form-control requiredField" type="text" data-error-empty="Please enter your name">
 							<i class="fa fa-user"></i>
 						  </div>
 						</div><!-- End name input -->
@@ -481,9 +482,10 @@
 						<div class="form-group">
 						  <label class="control-label" for="contact-mail">Email</label>
 						  <div class=" controls">
-							<input id="contact-mail" name="email" placeholder="Your email" class="form-control requiredField" type="email" data-error-empty="Please enter your email" data-error-invalid="Invalid email address">
+							<input type="email" name="_replyto" placeholder="Your email" class="form-control requiredField" type="email" data-error-empty="Please enter your email" data-error-invalid="Invalid email address">
 							<i class="fa fa-envelope"></i>
 						  </div>
+
 						</div><!-- End email input -->
 
 						<div class="form-group">
